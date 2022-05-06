@@ -1,0 +1,117 @@
+/* 
+font-family: 'Cairo', sans-serif;
+font-family: 'Jomhuria', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Water Brush', cursive;
+font-family: 'Work Sans', sans-serif;
+*/
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listen {
+    width: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card {
+    width: 375px;
+    height: 565px;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+}
+.text {
+    color: gray;
+    padding: 5px;
+}
+.m-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.price-box {
+    background-color: hsl(225, 100%, 98%);
+    width: 315px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.plan {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 11px;
+}
+.price {
+    color: gray;
+    margin-top: 7px;
+}
+.price-text {
+    margin-left: -80px;
+    margin-top: -7px;
+}
+.change-link {
+    color: hsl(245, 75%, 52%);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.change-link:hover {
+    color: rgb(128, 38, 224);
+}
+.payment {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 500;
+    width: 335px;
+    height: 42px;
+    padding: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.payment:hover {
+    background-color: rgb(128, 38, 224);
+}
+.cancel {
+    margin-top: 10px;
+    border: none;
+    color: gray;
+    font-weight: 800;
+    background-color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cancel:hover {
+    color: black;
+}
