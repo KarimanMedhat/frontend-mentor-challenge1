@@ -60,7 +60,7 @@ body {
     transform: translate(-50%, -50%);
 }
 .plan {
-    font-weight: bold;
+    font-weight: 800;
     color: black;
     margin-bottom: 0px;
     margin-top: 11px;
@@ -81,6 +81,7 @@ body {
 }
 .change-link:hover {
     color: rgb(128, 38, 224);
+    text-decoration: none;
 }
 .payment {
     color: white;
